@@ -76,6 +76,6 @@ $member2->borrowBook($book2);
 $member1->returnBook($book1);
 $member2->returnBook($book2);
 
-echo "Available Copies of : ".$book1->get_title().": ".$book1->getAvailableCopies()."<br/>";
-echo "Available Copies of : ".$book2->get_title().": ".$book2->getAvailableCopies();
+echo "Available Copies of  '".$book1->get_title()."' : ".$book1->getAvailableCopies()."<br/>";
+echo "Available Copies of  '".$book2->get_title()."' : ".$book2->getAvailableCopies();
 ?>
